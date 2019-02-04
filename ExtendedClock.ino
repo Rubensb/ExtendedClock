@@ -10,7 +10,6 @@ int const clockOutSxth = 5;
 int const clockOutSxt = 4;
 int const clockOutTwlth = 2;
 int const poti = A2;
-int const swtch = 3;
 
 int bpm = 120;
 
@@ -36,7 +35,6 @@ void setup() {
   pinMode(clockOutSxth, OUTPUT);
   pinMode(clockOutSxt, OUTPUT);
   pinMode(clockOutTwlth, OUTPUT);
-  pinMode(swtch, INPUT);
   pinMode(poti, INPUT);
   Serial.begin(9600);
 }
