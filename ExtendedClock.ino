@@ -1,4 +1,5 @@
-/* ArduinoMini
+/*
+ * ExtendedClock
  * Rubens Bandelin 2019
  * Still simple but unimaginary useful
  */
